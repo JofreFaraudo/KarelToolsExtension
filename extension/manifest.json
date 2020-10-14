@@ -1,0 +1,13 @@
+  {
+    "name": "Complements Karel",
+    "version": "1.2",
+    "description": "Complements per facilitar el Karel",
+    "content_scripts": [
+    {
+      "matches": ["https://fun.codelearn.cat/karel/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+    "manifest_version": 2
+  }
